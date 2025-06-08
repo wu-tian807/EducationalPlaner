@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "educational_planner"
+version = "0.1.0"
+dependencies = [
+    "deepseek",
+    "Flask",
+]
+[tool.pytest.ini_options]
+addopts = "-vv"
